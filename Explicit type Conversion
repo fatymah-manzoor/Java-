@@ -1,0 +1,16 @@
+public class MyThirdProgramm
+{
+public static void main(String args[])
+
+ {
+	double myDouble=9.0D;
+
+		int myInt;
+	myInt=(int)myDouble;
+	
+     System.out.println(myDouble);
+     System.out.println(myInt);
+ }
+
+
+}
