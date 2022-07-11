@@ -1,0 +1,18 @@
+public class MyFirstJava
+{
+public static void main(String args[])
+
+ {
+	int dec=110;
+    int bn=0b1000;
+	int oct=0400;
+	int hex=0x024E;
+	
+     System.out.println("Decimal dec is"+dec);
+     System.out.println("Binary bn is"+bn);
+	 System.out.println("Octal oct is"+oct);
+	 System.out.println("Hexadecimal hex is"+hex);
+ }
+
+
+}
