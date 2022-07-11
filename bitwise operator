@@ -1,0 +1,11 @@
+public class bitwise
+{
+   public static void main (String[] args)
+   {
+   byte b =64;
+   //b=(byte)//
+   
+   System.out.println(b >> 2);
+   }
+
+}
