@@ -1,0 +1,14 @@
+import pkg2k21b.*;
+class MainDemoPkg2k21B
+{
+	public static void main(String[] arg)
+	{
+		Customer obj=new Customer("Ali",5000);
+		obj.show();
+		obj.setName("Asad");
+		obj.setAmount(10000);
+		String myName=obj.getName();
+		double myBalance=obj.getAmount();
+		System.out.println(myName + "  "+ myBalance);
+	}
+}
